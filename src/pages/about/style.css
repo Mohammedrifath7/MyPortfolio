@@ -1,0 +1,172 @@
+.sec_sp {
+    margin-bottom: calc(3rem + 5.128vw)
+}
+
+.table td,
+.table th {
+    color: var(--text-color);
+}
+
+.t_border {
+    border-color: var(--text-color) !important;
+}
+
+  
+  .progress-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .progress {
+    height: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .progress-bar {
+    background-color: #007bff;
+  }
+  
+  .progress-value {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .service_ {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .service__title {
+    font-weight: bold;
+  }
+  
+  .service_desc {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Unique styles for Projects */
+  .unique_projects .projects_grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .unique_projects .project_item {
+    background: #CF6679;
+    border: 1px solid #183459;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    flex: 1 1 calc(50% - 1rem);
+  }
+  
+  .unique_projects .project_title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .unique_projects .project_desc {
+    color: #b4e80b;
+  }
+  
+  /* Unique styles for Papers */
+  .unique_papers .papers_list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .unique_papers .paper_item {
+    background: #03DAC6;
+    border: 1px solid #ffd700;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .unique_papers .paper_title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .unique_papers .paper_event {
+    color: #090909;
+  }
+  
+  /* Unique styles for Training */
+  .unique_training .training_list {
+    list-style-type: square;
+    padding-left: 1.5rem;
+  }
+  
+  .unique_training .training_item {
+    margin-bottom: 1rem;
+  }
+  
+  .unique_training .training_title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .unique_training .training_location,
+  .unique_training .training_desc {
+    color: #ef058d;
+  }
+  
+  /* Unique styles for Workshops */
+  .unique_workshops .workshops_timeline {
+    border-left: 2px solid #ff7f50;
+    padding-left: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .unique_workshops .workshop_item {
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .unique_workshops .workshop_item::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #ff7f50;
+    border-radius: 50%;
+    position: absolute;
+    left: -18px;
+    top: 5px;
+  }
+  
+  .unique_workshops .workshop_title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .unique_workshops .workshop_desc {
+    color: #9708e4;
+  }
+  
+  /* Unique styles for Leadership */
+  .unique_leadership .leadership_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .unique_leadership .leadership_card {
+    background: #BB86FC;
+    border: 1px solid #dcdcdc;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    flex: 1 1 calc(50% - 1rem);
+  }
+  
+  .unique_leadership .leadership_title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .unique_leadership .leadership_desc {
+    color: hsl(266, 96%, 49%);
+  }
+  
